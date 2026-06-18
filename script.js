@@ -43,7 +43,7 @@ function validate_otp() {
 
   if (otp === actual_pin) {
     alert('PIN is Correct...Redirecting')
-    window.location.href = 'http://127.0.0.1:3002/dashboard.html'
+    window.location.href = 'https://harshit-singh493.github.io/ATM-Assignment-immersion/dashboard.html'
   } else {
     inputs.forEach(e => e.value = '')
     alert("Wrong OTP")
